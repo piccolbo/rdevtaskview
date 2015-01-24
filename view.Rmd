@@ -45,7 +45,7 @@ make.table =
         function(x) {
           url = packageDescription(x)$URL
           if(is.null(url)) x
-          else paste0("[", x, "](", url , ")")})
+          else paste0("<a href=\"", url, "\">", x, "</a>")})
     print(
       xtable(
         label = "viewname",
