@@ -1,10 +1,15 @@
 # rdevtaskview
-Annotated list of packages that support programming in R. Not a specific statistical task, but programming in general.
+Annotated collection of packages that support programming in R. Not a specific statistical task, but programming in general.
 
-|name| description| installation | reference|
-|---|---|---|---|
+|name| description| installation | 
+|---|---|---|
 |functional|Curry, Compose, and other higher-order functions| `install.packages("functional")`|
-|dplyr| A fast, consistent tool for working with data frame like objects, both in memory and out of memory| `install.packages("dplyr")`||
+|dplyr| A fast, consistent tool for working with data frame like objects, both in memory and out of memory| `install.packages("dplyr")`|
+|devtools|Collection of package development tools|`install.packages("devtools")`|
+|testthat|A testing package specifically tailored for R that's fun, flexible and easy to set up.| `install.packages("testthat")`|
+|covr| Compute test coverage statistics for your package and (optionally)
+    upload the results to coveralls| `install.packages("covr")`|
+|[quickcheck](github.com/RevolutionAnalytics/quickcheck) | Supports writing randomized  tests| `install_github("RevolutionAnalytics/quickcheck/pkg")`
 
 
 
