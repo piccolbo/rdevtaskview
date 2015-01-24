@@ -1,7 +1,7 @@
 ---
 output: 
-  html_document:
-    keep_md: true
+html_document:
+keep_md: true
 ---
 
 ```{r results='hide', message=FALSE, echo=FALSE}
@@ -32,18 +32,24 @@ profiling.packages =
 ```{r results='asis', echo=FALSE}
 library(xtable)
 
-null2empty = function(el) if (is.null(el)) "" else el
-
 make.table = 
   function(viewname, packages) {
     packages = sort(names(packages))
+    table = 
+      cbind(
+        Title  = sapply(packages, function(x) packageDescription(x)$Title),
+        Description = sapply(packages, function(x) packageDescription(x)$Description))
+    row.names(table) = 
+      sapply(
+        packages, 
+        function(x) {
+          url = packageDescription(x)$URL
+          if(is.null(url)) x
+          else paste0("[", x, "](", url , ")")})
     print(
       xtable(
         label = "viewname",
-        cbind(
-          Title  = sapply(packages, function(x) packageDescription(x)$Title),
-          Description = sapply(packages, function(x) packageDescription(x)$Description),
-          Reference = sapply(packages, function(x) null2empty(packageDescription(x)$URL)))),
+        table),
       type = "html")}
 ```
 ## Testing
