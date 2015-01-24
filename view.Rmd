@@ -1,0 +1,25 @@
+---
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+
+```{r results='asis', echo=FALSE}
+library(xtable)
+packages = sort(c("testthat", "quickcheck", "assertthat"))
+null2empty = function(el) if (is.null(el)) "" else el
+print(
+  xtable(
+  cbind(
+    Title  = sapply(packages, function(x) packageDescription(x)$Title),
+    Description = sapply(packages, function(x) packageDescription(x)$Description),
+    Reference = sapply(packages, function(x) null2empty(packageDescription(x)$URL)))),
+  type = "html")
+```
+
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
