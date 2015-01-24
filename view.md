@@ -5,21 +5,21 @@
 
 ## Testing
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Sat Jan 24 15:28:02 2015 -->
+<!-- Sat Jan 24 15:33:21 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> assertthat </td> <td> Easy pre and post assertions. </td> <td> assertthat is an extension to stopifnot() that makes it
     easy to declare the pre and post conditions that you code should
     satisfy, while also producing friendly error messages so that your
     users know what they've done wrong. </td> </tr>
-  <tr> <td align="right"> &lt;a href="https://github.com/RevolutionAnalytics/quickcheck"&gt;quickcheck&lt;/a&gt; </td> <td> Support for randomized software testing </td> <td> Provides functions to test and reproduce failures of assertions on random data. Also provides a variety of random data generators.  </td> </tr>
-  <tr> <td align="right"> &lt;a href="https://github.com/hadley/testthat"&gt;testthat&lt;/a&gt; </td> <td> Testthat code. Tools to make testing fun :) </td> <td> A testing package specifically tailored for R
+  <tr> <td align="right"> <a href="https://github.com/RevolutionAnalytics/quickcheck">quickcheck</a> </td> <td> Support for randomized software testing </td> <td> Provides functions to test and reproduce failures of assertions on random data. Also provides a variety of random data generators.  </td> </tr>
+  <tr> <td align="right"> <a href="https://github.com/hadley/testthat">testthat</a> </td> <td> Testthat code. Tools to make testing fun :) </td> <td> A testing package specifically tailored for R
     that's fun, flexible and easy to set up. </td> </tr>
    <a name=viewname></a>
 </table>
 ## Profiling
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Sat Jan 24 15:28:02 2015 -->
+<!-- Sat Jan 24 15:33:21 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> microbenchmark </td> <td> Accurate Timing Functions </td> <td> Provides infrastructure to accurately measure and compare

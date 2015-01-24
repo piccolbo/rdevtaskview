@@ -50,7 +50,8 @@ make.table =
       xtable(
         label = "viewname",
         table),
-      type = "html")}
+      type = "html",
+      sanitize.text.function = force)}
 ```
 ## Testing
 ```{r results='asis', echo=FALSE}
