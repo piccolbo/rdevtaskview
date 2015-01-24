@@ -5,10 +5,10 @@
 
 ## Testing
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Sat Jan 24 15:08:59 2015 -->
+<!-- Sat Jan 24 15:23:04 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
-  <tr> <td align="right"> [assertthat]() </td> <td> Easy pre and post assertions. </td> <td> assertthat is an extension to stopifnot() that makes it
+  <tr> <td align="right"> assertthat </td> <td> Easy pre and post assertions. </td> <td> assertthat is an extension to stopifnot() that makes it
     easy to declare the pre and post conditions that you code should
     satisfy, while also producing friendly error messages so that your
     users know what they've done wrong. </td> </tr>
@@ -19,10 +19,10 @@
 </table>
 ## Profiling
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Sat Jan 24 15:08:59 2015 -->
+<!-- Sat Jan 24 15:23:04 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
-  <tr> <td align="right"> [microbenchmark]() </td> <td> Accurate Timing Functions </td> <td> Provides infrastructure to accurately measure and compare
+  <tr> <td align="right"> microbenchmark </td> <td> Accurate Timing Functions </td> <td> Provides infrastructure to accurately measure and compare
         the execution time of R expressions. </td> </tr>
    <a name=viewname></a>
 </table>
