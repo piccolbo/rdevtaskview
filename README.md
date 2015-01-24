@@ -4,6 +4,7 @@ Annotated list of packages that support programming in R. Not a specific statist
 |name| description| installation | reference|
 |---|---|---|---|
 |functional|Curry, Compose, and other higher-order functions| `install.packages("functional")`|
+|dplyr| A fast, consistent tool for working with data frame like objects, both in memory and out of memory| `install.packages("dplyr")`||
 
 
 
