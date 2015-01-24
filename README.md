@@ -1,5 +1,5 @@
 # rdevtaskview
-Annotated collection of packages that support programming in R. Not a specific statistical task, but programming in general.
+Annotated collection of packages that support programming in R. Not a specific statistical task, but programming in general. CS type-stuff. Table will be eventually split into multiple docs, for different programming tasks such as: data strutctures, data bases, big data, foreign language extensions etc.
 
 |name| description| installation | 
 |---|---|---|
@@ -8,7 +8,36 @@ Annotated collection of packages that support programming in R. Not a specific s
 |devtools|Collection of package development tools|`install.packages("devtools")`|
 |testthat|A testing package specifically tailored for R that's fun, flexible and easy to set up.| `install.packages("testthat")`|
 |covr| Compute test coverage statistics for your package and (optionally)  upload the results to coveralls|`install.packages("covr")`|
-|[quickcheck](github.com/RevolutionAnalytics/quickcheck) | Supports writing randomized  tests| `install_github("RevolutionAnalytics/quickcheck/pkg")`
+|[quickcheck](github.com/RevolutionAnalytics/quickcheck) | Supports writing randomized  tests| `install_github("RevolutionAnalytics/quickcheck/pkg")`|
+|magrittr| A Forward-Pipe Operator for R| `install.packages("magrittr")`|
+|Rcpp| Seamless R and C++ Integration| `install.packages("Rcpp")`|
+|memoise|
+|digest|
+|bitops|
+|hash|
+|DBI|
+|lazyeval|
+|lowliner|
+|plyrmr|
+|pryr|
+|rjava|
+|RJSONIO|
+|rmr2|
+|shiny|
+|SparkR|
+|V8|
+|assertthat|
+|base64|
+|BH|
+|bit|
+|bit64|
+|codetools|
+|compiler|
+|data.table|
+|digest|
+|formatR|
+|Formula|
+
 
 
 
