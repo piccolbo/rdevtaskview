@@ -13,18 +13,19 @@ installifnot =
       if (!require(tail(strsplit(pkg, split = "/")[[1]], 2)[[1]], character.only = TRUE))
         infun(pkg, ...)
 
-install.packages = installifnot(utils::install.packages)
+ip = installifnot(utils::install.packages)
 install_github = installifnot(devtools::install_github)
 
 testing.packages = 
   list(
-    testthat = install.packages("testthat"),
+    testthat = ip("testthat"),
     quickcheck = install_github("RevolutionAnalytics/quickcheck/pkg"), 
-    assertthat = install.packages("assertthat", type = "source"))
+    assertthat = ip("assertthat", type = "source"),
+    covr = ip("covr"))
 
 profiling.packages = 
   list(
-    microbenchmark = install.packages("microbenchmark"))
+    microbenchmark = ip("microbenchmark"))
 
 ```
 
