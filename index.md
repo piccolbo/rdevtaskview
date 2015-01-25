@@ -8,7 +8,7 @@ title: R Development Task View
 ## Testing
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
 <!-- Sat Jan 24 21:07:02 2015 -->
-
+a
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> assertthat </td> <td> Easy pre and post assertions. </td> <td> assertthat is an extension to stopifnot() that makes it
