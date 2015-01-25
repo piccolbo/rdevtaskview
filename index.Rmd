@@ -1,6 +1,8 @@
 ---
 title: R Development Task View
-output: md_document
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ```{r results='hide', message=FALSE, echo=FALSE}
