@@ -18,8 +18,13 @@ The goal of this page is to list packages that are helpful for R development, ex
 library(devtools)
 
 ip = 
-  function(x, ...)
-    if(!require(x, character.only = TRUE)) install.packages(x, ...)
+  function(x, from = c("cran", "github"), ...)
+    if(!require(x, character.only = TRUE)) {
+      from = match.arg(from)
+      if(from == "cran")
+        install.packages(x, ...)
+      else 
+        install_github(x, ...)}
 
 library(xtable)
 
@@ -51,7 +56,7 @@ make.table =
 testing = 
   list(
     testthat = ip("testthat"),
-    quickcheck = install_github("RevolutionAnalytics/quickcheck/pkg"), 
+    quickcheck = ip(from = "github","RevolutionAnalytics/quickcheck/pkg"), 
     assertthat = ip("assertthat", type = "source"),
     RUnit = ip("RUnit"),
     covr = ip("covr"))
@@ -96,9 +101,9 @@ make.table(language)
 ```{r}
 distributed =
   list(
-    rmr2 = install_github("RevolutionAnalytics/rmr2/pkg"), 
-    plyrmr = install_github("RevolutionAnalytics/plyrmr/pkg"), 
-    SparkR = install_github("amplab-extras/SparkR-pkg", subdir="pkg"))
+    rmr2 = ip(from = "github","RevolutionAnalytics/rmr2/pkg"), 
+    plyrmr = ip(from = "github","RevolutionAnalytics/plyrmr/pkg"), 
+    SparkR = ip(from = "github","amplab-extras/SparkR-pkg", subdir="pkg"))
 make.table(distributed)
 ```
 
@@ -130,7 +135,7 @@ format =
   list(
     RJSONIO = ip("RJSONIO"),
     rjson = ip("rjson"),
-    ravro = install_github("RevolutionAnalytics/ravro/pkg"))
+    ravro = ip(from = "github","RevolutionAnalytics/ravro", subdir = "pkg/ravro"))
 make.table(format)
 ```
 

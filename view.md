@@ -9,8 +9,13 @@ The goal of this page is to list packages that are helpful for R development, ex
 
 
 ## Testing
+
+```
+## Warning: there is no package called 'RevolutionAnalytics/quickcheck/pkg'
+```
+
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:01:08 2015 -->
+<!-- Fri Mar  6 14:59:06 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> assertthat </td> <td> Easy pre and post assertions. </td> <td> assertthat is an extension to stopifnot() that makes it
@@ -19,7 +24,7 @@ The goal of this page is to list packages that are helpful for R development, ex
     users know what they've done wrong. </td> </tr>
   <tr> <td align="right"> covr </td> <td> Test Coverage for R packages. </td> <td> Compute test coverage statistics for your package and (optionally)
     upload the results to coveralls. </td> </tr>
-  <tr> <td align="right"> quickcheck </td> <td> Support writing randomized unit tests </td> <td> provides a unit.test function that generates a test and many simple generators  </td> </tr>
+  <tr> <td align="right"> <a href="https://github.com/RevolutionAnalytics/quickcheck">quickcheck</a> </td> <td> Support for randomized software testing </td> <td> Provides functions to test and reproduce failures of assertions on random data. Also provides a variety of random data generators. </td> </tr>
   <tr> <td align="right"> RUnit </td> <td> R Unit test framework </td> <td> R functions implementing a standard Unit Testing
         framework, with additional code inspection and report
         generation tools </td> </tr>
@@ -30,7 +35,7 @@ The goal of this page is to list packages that are helpful for R development, ex
 
 ## Profiling
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:01:08 2015 -->
+<!-- Fri Mar  6 14:59:06 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> microbenchmark </td> <td> Accurate Timing Functions </td> <td> Provides infrastructure to accurately measure and compare
@@ -41,7 +46,7 @@ The goal of this page is to list packages that are helpful for R development, ex
 
 ## Data structures
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:01:08 2015 -->
+<!-- Fri Mar  6 14:59:06 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> bitops </td> <td> Bitwise Operations </td> <td> Functions for bitwise operations on integer vectors. </td> </tr>
@@ -63,7 +68,7 @@ The goal of this page is to list packages that are helpful for R development, ex
 ## Language processing or extension
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:01:08 2015 -->
+<!-- Fri Mar  6 14:59:06 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> compiler </td> <td> The R Compiler Package </td> <td> Byte code compiler for R </td> </tr>
@@ -86,12 +91,14 @@ The goal of this page is to list packages that are helpful for R development, ex
 
 
 ```
-## Warning: there is no package called 'amplab-extras'
+## Warning: there is no package called 'RevolutionAnalytics/rmr2/pkg'
+## Warning: there is no package called 'RevolutionAnalytics/plyrmr/pkg'
+## Warning: there is no package called 'amplab-extras/SparkR-pkg'
 ## Warning: package '' is not available (for R version 3.1.2)
 ```
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:02:01 2015 -->
+<!-- Fri Mar  6 15:00:33 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> plyrmr </td> <td> Data manipulation backed by rmr2 and Hadoop </td> <td> Implement basic data manipulation functions inspired by plyr; map them to Hadoop jobs through delayed evaluation and rmr2 </td> </tr>
@@ -104,7 +111,7 @@ The goal of this page is to list packages that are helpful for R development, ex
 
 For this also see the HPC task view on CRAN, which includes lots of other things that have nothing to deal with parallel or HPC.
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:02:01 2015 -->
+<!-- Fri Mar  6 15:00:33 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> ROpenCL </td> <td> Access the OpenCL API from R </td> <td> Parallel Computing for R Using OpenCL </td> </tr>
@@ -114,11 +121,8 @@ For this also see the HPC task view on CRAN, which includes lots of other things
 
 ## Interfaces to other languages
 
-
-The downloaded binary packages are in
-	/var/folders/_p/1gx4vy311_x4syn2xq6f2xtc0000gr/T//RtmpvFFWn2/downloaded_packages
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:03:00 2015 -->
+<!-- Fri Mar  6 15:00:33 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> <a href="http://www.rcpp.org, http://dirk.eddelbuettel.com/code/rcpp.html,
@@ -138,8 +142,13 @@ https://github.com/RcppCore/Rcpp">Rcpp</a> </td> <td> Seamless R and C++ Integra
 </table>
 ## Formats
 
+
+```
+## Warning: there is no package called 'RevolutionAnalytics/ravro'
+```
+
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:03:28 2015 -->
+<!-- Fri Mar  6 15:04:07 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> ravro </td> <td> Read and write Avro data files from R </td> <td> Read and write Avro data files from R </td> </tr>
@@ -162,7 +171,7 @@ https://github.com/RcppCore/Rcpp">Rcpp</a> </td> <td> Seamless R and C++ Integra
 ## Documentation
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:03:28 2015 -->
+<!-- Fri Mar  6 15:04:07 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> <a href="https://github.com/klutometis/roxygen">roxygen2</a> </td> <td> In-source documentation for R </td> <td> A Doxygen-like in-source documentation system
@@ -172,7 +181,7 @@ https://github.com/RcppCore/Rcpp">Rcpp</a> </td> <td> Seamless R and C++ Integra
 ## Literate programming
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:03:28 2015 -->
+<!-- Fri Mar  6 15:04:07 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> <a href="http://yihui.name/knitr/">knitr</a> </td> <td> A general-purpose package for dynamic report generation in R </td> <td> This package provides a general-purpose tool for dynamic report
@@ -208,7 +217,7 @@ One comment, I know that `knitr` is for much more than literate programming. But
 ## Database
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:03:47 2015 -->
+<!-- Fri Mar  6 15:04:07 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> RSQLite </td> <td> SQLite interface for R </td> <td> Database Interface R driver for SQLite.  This package
@@ -221,7 +230,7 @@ One comment, I know that `knitr` is for much more than literate programming. But
 ## UI
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:03:47 2015 -->
+<!-- Fri Mar  6 15:04:07 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> <a href="http://shiny.rstudio.com">shiny</a> </td> <td> Web Application Framework for R </td> <td> Shiny makes it incredibly easy to build interactive web
@@ -234,7 +243,7 @@ One comment, I know that `knitr` is for much more than literate programming. But
 ## Dependency management
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:10:43 2015 -->
+<!-- Fri Mar  6 15:04:07 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> <a href="https://github.com/RevolutionAnalytics/checkpoint">checkpoint</a> </td> <td> Install Packages from Snapshots on the Checkpoint Server for
@@ -262,7 +271,7 @@ dependencies </td> <td> Packrat is a tool for managing the R packages your proje
 ## Miscellaneous
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Mon Jan 26 10:03:47 2015 -->
+<!-- Fri Mar  6 15:04:07 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Title </th> <th> Description </th>  </tr>
   <tr> <td align="right"> devtools </td> <td> Tools to make developing R code easier </td> <td> Collection of package development tools. </td> </tr>
